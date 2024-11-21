@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
-#import requests
-#import datetime
+import requests
+import datetime
 
 def numDevices(statusQuery, threshold, dateStr):
     base_url = "https://jsonmock.hackerrank.com/api/iot_devices/search"
